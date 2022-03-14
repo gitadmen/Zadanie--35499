@@ -1,3 +1,9 @@
-body {
-    background-color: bg-light;
+.ptb {
+    padding: 60px 0px 60px 0px;
+}
+
+@media (max-width: 768px) {
+    .ptb {
+        padding: 60px 45px 60px 45px;
+    }
 }
