@@ -2,8 +2,24 @@
     padding: 60px 0px 60px 0px;
 }
 
+.showcase-img {
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.pall {
+    padding: 50px 50px 50px 50px;
+}
+
+
+
 @media (max-width: 768px) {
     .ptb {
         padding: 60px 45px 60px 45px;
+    }
+
+    .showcase-img {
+        height: 300px;
     }
 }
