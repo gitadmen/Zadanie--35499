@@ -5,14 +5,23 @@
 .showcase-img {
     background-size: cover;
     background-position: center;
-    
+}
+
+#teamImg {
+    border-radius: 50%;
+    max-width: 200px;
+    padding-bottom: 20px;
+}
+
+.call-to-action {
+    background-image: url(../img/slider-1.jpg);
+    background-size: cover;
+    background-position: center
 }
 
 .pall {
     padding: 50px 50px 50px 50px;
 }
-
-
 
 @media (max-width: 768px) {
     .ptb {
